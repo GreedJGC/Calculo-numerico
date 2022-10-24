@@ -2,13 +2,13 @@
 
 
 def Error_absoluto(a,b): #Permite realizar el margen de error absoluto
-	if a>b:Error_absoluto=a-b 
-	pass
+	Error_absoluto=ABS(a-b)
+	
 	return Error_absoluto
 
 def Error_relativo(a,b): #Permite realizar el margen de error relativo
-	if a>b:Error_relativo=(a-b)/a 
-	pass
+	Error_relativo=ABS((a-b)/a)
+	
 	return Error_relativo
 
 if __name__ == '__main__':
