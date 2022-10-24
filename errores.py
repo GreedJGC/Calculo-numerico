@@ -2,12 +2,12 @@
 
 
 def Error_absoluto(a,b): #Permite realizar el margen de error absoluto
-	Error_absoluto=ABS(a-b)
+	Error_absoluto=abs (a-b)
 	
 	return Error_absoluto
 
 def Error_relativo(a,b): #Permite realizar el margen de error relativo
-	Error_relativo=ABS((a-b)/a)
+	Error_relativo=abs((a-b)/a)
 	
 	return Error_relativo
 
