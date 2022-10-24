@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import unittest
-import teoremas.py
+import teorema.py
 import errores.py
 
 class TestTeoremas(unittest.TestCase):
