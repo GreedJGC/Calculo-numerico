@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 
-
 def Error_absoluto(a,b): #Permite realizar el margen de error absoluto
-	Error_absoluto=abs (a-b)
-	
+	Error_absoluto=abs(a-b)
+
 	return Error_absoluto
 
 def Error_relativo(a,b): #Permite realizar el margen de error relativo
