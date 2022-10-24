@@ -4,8 +4,8 @@ import unittest
 import teoremas.py
 import errores.py
 
-class TestTeoremas(unittest.Testcase):
+class TestTeoremas(unittest.TestCase):
 	pass
 	
-class TestErrores(unittest.Testcase):
+class TestErrores(unittest.TestCase):
 	pass
