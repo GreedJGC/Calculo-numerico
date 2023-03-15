@@ -18,17 +18,17 @@ class test_errores(unittest.TestCase):
 class test_teoremas(unittest.TestCase):
     def test_valor_intermedio(self):
         f= lambda x :x**2-4
-        self.asserTrue(teorema.Valor_intermedio(f,0,5),True)
+        self.assertTrue(teorema.Valor_intermedio(f,0,5),True)
 
 class test_biseccion(unittest.TestCase):
     def test_biseccion(self):
-        f=lambda x:x**2+2*x-8
-        self.asssertEqual(biseccion.biseccion(f,0,5,1e-2),1.99951171875)
+        f = lambda x: x**2 + 2*x - 8
+        self.assertEqual(biseccion.biseccion(f,0,5,1e-2),1.99951171875)
 
 class test_integracion_numerica(unittest.TestCase):
     def test_integracion_numerica(self):
         f=lambda x:x**2
-        self.assertEqual(integracion_numerica.integracion(f,0,1,10),0.3850000000000001)
+        self.assertEqual(integracion_numerica.integrar(f,0,1,10),0.3850000000000001)
 
 class test_newton(unittest.TestCase):
     def test_newton(self):
